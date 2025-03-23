@@ -4,7 +4,7 @@ services:
   laravel:
     build: .
     ports:
-      - "8000:80"  # Aplikasi dapat diakses di port 8080
+      - "8001:80"  # Aplikasi dapat diakses di port 8080
     environment:
       - DB_HOST=db
       - DB_PORT=3306
